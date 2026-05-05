@@ -306,7 +306,7 @@
     <script>
         // ============ SEGURANÇA ============
         (function() {
-            const allowedDomains = ['synt.digital', 'localhost', '127.0.0.1', 'synt-git-main.vercel.app', 'synt.vercel.app'];
+            const allowedDomains = ['synt.digital', 'localhost', '127.0.0.1', 'synt-git-main.vercel.app', 'synt.vercel.app', 'synt-beta.vercel.app'];
             const currentHost = window.location.hostname;
             if (!allowedDomains.some(domain => currentHost.endsWith(domain))) {
                 document.body.innerHTML = '<div style="color:red;text-align:center;padding:2rem;">Unauthorized domain</div>';
